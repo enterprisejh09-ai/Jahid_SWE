@@ -11,17 +11,17 @@ body {
 }
 
 /* HEADER */
-.header {
+header {
   padding: 20px 40px;
 }
 
-.nav {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.nav a {
+nav a {
   margin-right: 20px;
   text-decoration: none;
   color: black;
@@ -56,4 +56,9 @@ body {
 .hero h2 {
   font-size: 32px;
   font-weight: normal;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-top: 6px;
 }
